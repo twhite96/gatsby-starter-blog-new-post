@@ -6,7 +6,7 @@ const dateFns = require('date-fns');
 const title = process.argv[2];
 const shell = require("shelljs");
 
-shell.exec("new post");
+shell.exec("new-post");
 
 if (!title) {
   throw 'a title is required!';
