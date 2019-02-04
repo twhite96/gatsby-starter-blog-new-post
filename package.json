@@ -1,6 +1,6 @@
 {
   "name": "new-post-gatsby-starter-blog",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "create a new post in gatsby starter blog format with a simple command",
   "main": "index.js",
   "repository": {
