@@ -1,11 +1,8 @@
 {
   "name": "new-post-gatsby-starter-blog",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "create a new post in gatsby starter blog format with a simple command",
   "main": "index.js",
-  "scripts": {
-    "new-post": "new-post"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/twhite96/gatsby-starter-blog-new-post.git"
@@ -18,7 +15,7 @@
     "npm"
   ],
   "bin": {
-    "new-post": "bin/index.js"
+    "new-post": "./index.js"
   },
   "author": "Tiffany White",
   "license": "MIT",
