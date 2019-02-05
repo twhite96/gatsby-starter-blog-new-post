@@ -4,6 +4,8 @@ const fs = require('fs');
 const slugify = require('slug');
 const dateFns = require('date-fns');
 const title = process.argv[2];
+const shell = require(shelljs);
+
 
 if (!title) {
   throw 'a title is required!';
@@ -17,11 +19,11 @@ if (!dir) {
 fs.writeFileSync(
   `${dir}.md`,
   `---
- date: ${date}
- title: "${title}"
- author:
- spoiler:
- ---`,
+   title: "${title}"
+   date: ${date}
+   author:
+   spoiler:
+   ---`,
   function(err) {
     if (err) {
       return console.log(err);
@@ -29,3 +31,5 @@ fs.writeFileSync(
     console.log(`${title} was created!`);
   }
 );
+
+shell.exec('node bin/new-post.js')
