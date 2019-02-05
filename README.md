@@ -11,11 +11,12 @@ My script is basically his, with minor modifications; I'm using markdown here an
 Open your terminal of choice and do the following:
 
 ```shell
-cd [your directory]
+npm install --global new-post-gatsby-starter-blog
 ```
 then run
 
 ```shell
+cd [your directory]
 new-post "Title of post"
 ```
 

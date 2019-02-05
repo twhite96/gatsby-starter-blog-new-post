@@ -4,7 +4,6 @@ const fs = require('fs');
 const slugify = require('slug');
 const dateFns = require('date-fns');
 const title = process.argv[2];
-const shell = require(shelljs);
 
 
 if (!title) {
@@ -31,5 +30,3 @@ fs.writeFileSync(
     console.log(`${title} was created!`);
   }
 );
-
-shell.exec('node bin/new-post.js')
