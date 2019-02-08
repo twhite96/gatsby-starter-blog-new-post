@@ -19,7 +19,7 @@ if (!dir) {
 fs.writeFileSync(
  `${dir}.md`,
  `---
-date: ${date}
+date: "${date}"
 title: "${title}"
 author:
 spoiler:
