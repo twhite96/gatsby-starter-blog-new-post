@@ -6,7 +6,7 @@
 
 [Joel Hooks](https://twitter.com/jhooks), creator of [egghead.io](https://egghead.io) [wrote a post](https://joelhooks.com/a-handy-npm-script-for-creating-a-new-gatsby-blog-post) on automating new posts for Gatsby with a basic npm script.
 
-My script is basically his, with minor modifications; I'm using markdown here and the frontmatter format for this script is *specifically* for [Gatsby Starter Blog](https://www.gatsbyjs.org/starters/gatsbyjs/gatsby-starter-blog/). For an idea of how that starter is setup, checkout my [TWBlog repo's src directory](https://github.com/twhite96/TWBlog/src/pages).
+My script is basically his, with minor modifications; I'm using markdown here and the frontmatter format for this script is *specifically* for [Gatsby Starter Blog](https://www.gatsbyjs.org/starters/gatsbyjs/gatsby-starter-blog/). For an idea of how that starter is setup, checkout my [TWBlog repo's src directory](https://github.com/twhite96/TWBlog/tree/master/src/pages).
 
 ## Usage
 
