@@ -2,7 +2,7 @@
 
 > A cli tool to create a new post and frontmatter for Gatsby Starter Blog
 
-![](https://img.shields.io/npm/v/new-post-gatsby-starter-blog.svg?colorB=%2306D7D9&style=flat) ![](https://img.shields.io/npm/l/new-post-gatsby-starter-blog.svg?colorB=%23FFAFFA&style=flat) ![](https://img.shields.io/github/followers/twhite96.svg?label=Follow&style=social) ![](https://img.shields.io/npm/dt/new-post-gatsby-starter-blog.svg?colorB=%23920358&style=flat) ![](https://img.shields.io/twitter/follow/TiffanyW_412.svg?label=Follow&style=social)
+![](https://img.shields.io/npm/v/new-post-gatsby-starter-blog.svg?colorB=%2306D7D9&style=flat) ![](https://img.shields.io/npm/l/new-post-gatsby-starter-blog.svg?colorB=%23FFAFFA&style=flat) ![](https://img.shields.io/github/followers/twhite96.svg?label=Follow&style=social) ![](https://img.shields.io/npm/dt/new-post-gatsby-starter-blog.svg?colorB=%23920358&style=flat) ![](https://img.shields.io/twitter/follow/tiffanywhitedev.svg?label=Follow&style=social)
 
 [Joel Hooks](https://twitter.com/jhooks), creator of [egghead.io](https://egghead.io) [wrote a post](https://joelhooks.com/a-handy-npm-script-for-creating-a-new-gatsby-blog-post) on automating new posts for Gatsby with a basic npm script.
 
