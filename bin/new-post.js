@@ -17,13 +17,13 @@ if (!dir) {
 }
 
 fs.writeFileSync(
- `${dir}.md`,
+  `${dir}.md`,
  `---
-date: ${date}
-title: "${title}"
-author:
-spoiler:
----`,
+  title: "${title}"
+  date: ${date}
+  author:
+  spoiler:
+  ---`,
  function(err) {
  if (err) {
  return console.log(err)
