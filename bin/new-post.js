@@ -9,7 +9,7 @@ if (!title) {
  throw 'a title is required!';
 }
 const slug = slugify(title.toLowerCase());
-const date = dateFns.format(new Date(), 'YYYY-MM-DD');
+const date = dateFns.format(new Date(), "YYYY-MM-DD");
 const dir = `./src/pages/${slug}`;
 
 if (!dir) {
@@ -19,7 +19,7 @@ if (!dir) {
 fs.writeFileSync(
  `${dir}.md`,
  `---
-date: "${date}"
+date: ${date}
 title: "${title}"
 author:
 spoiler:
