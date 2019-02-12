@@ -3,6 +3,7 @@
 const fs = require('fs');
 const slugify = require('slug');
 const dateFns = require('date-fns');
+
 const title = process.argv[2];
 
 if (!title) {
@@ -19,11 +20,11 @@ if (!dir) {
 fs.writeFileSync(
   `${dir}.md`,
  `---
-  title: "${title}"
-  date: ${date}
-  author:
-  spoiler:
-  ---`,
+title: "${title}"
+date: ${date}
+author:
+spoiler:
+---`,
  function(err) {
  if (err) {
  return console.log(err)
